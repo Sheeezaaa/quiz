@@ -1,0 +1,5 @@
+node_modules/
+Quiz/node_modules/
+.env
+Quiz/.env
+dist/
