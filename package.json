@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "npm --prefix Quiz install",
+    "build": "npm --prefix Quiz run build",
+    "start": "node Quiz/server.js",
     "dev": "npm --prefix Quiz run dev",
     "server": "npm --prefix Quiz run server",
-    "test": "npm --prefix Quiz test",
-    "build": "npm --prefix Quiz run build"
+    "test": "npm --prefix Quiz test"
   }
 }
